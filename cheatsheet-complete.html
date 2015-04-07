@@ -10,32 +10,39 @@
                 margin-top: 0px;
                 font-family: Arial, sans-serif;
             }
-            
+
             h1 {
                 background-color: red;
                 color: white;
             }
-            
+
             h2 {
                 background-color: gold;
             }
-            
+
             li {
                 background-color: gray;
-                color: white;                
+                color: white;
             }
-            
+
             h1, h2, li {
                 padding: 7px;
                 margin-top: 7px;
                 border-radius: 5px;
             }
-                        
+
             [class="command"] {
                 font-weight: bold;
-                margin-right: 20px;
+                font-family: Courier;
             }
-            
+
+            [class="arrow"] {
+                font-weight: bold;
+                font-family: Courier;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+
         </style>
     </head>
     <body>
@@ -44,53 +51,64 @@
         <h2>Keyboard Shortcuts</h2>
         <ul>
             <li>
-                <span class="command">Ctrl-S --></span>
+                <span class="command">Ctrl-S</span>
+                <span class="arrow">--></span>
                 <span>Save file</span>
             </li>
             <li>
-                <span class="command">Ctrl-C --></span>
+                <span class="command">Ctrl-C</span>
+                <span class="arrow">--></span>
                 <span>Copy Text</span>
             </li>
             <li>
-                <span class="command">Crtl-V --></span>
+                <span class="command">Crtl-V</span>
+                <span class="arrow">--></span>
                 <span>Paste Text</span>
             </li>
             <li>
-                <span class="command">Ctrl-X --></span>
+                <span class="command">Ctrl-X</span>
+                <span class="arrow">--></span>
                 <span>Cut Text</span>
             </li>
             <li>
-                <span class="command">Ctrl-Z --></span>
+                <span class="command">Ctrl-Z</span>
+                <span class="arrow">--></span>
                 <span>Undo Change</span>
             </li>
         </ul>
         <h2>Navigating Folders in the Command-Line</h2>
         <ul>
             <li>
-                <span class="command">cd --></span>
+                <span class="command">cd</span>
+                <span class="arrow">--></span>
                 <span>Change directory</span>
             </li>
             <li>
-                <span class="command">cd .. --></span>
+                <span class="command">cd ..</span>
+                <span class="arrow">--></span>
                 <span>Go back outside the current directory</span>
             </li>
             <li>
-                <span class="command">ls --></span>
+                <span class="command">ls</span>
+                <span class="arrow">--></span>
                 <span>List files and directories in the current directory</span>
             </li>
         </ul>
         <h2>Committing Your Work To Git</h2>
         <ul>
             <li>
-                <span class="command">git commit . --></span>
+                <span class="command">git add .</span>
+                <span class="arrow">--></span>
                 <span>Stage all changes so they'll be included in the next commit</span>
             </li>
             <li>
-                <span class="command">git commit -m "Your commit message goes here" --></span>
+                <span class="command">git commit -m "Your commit message goes here"</span>
+                <span class="arrow">--></span>
                 <span>Commit all currently staged changes so they can be pushed. Be sure your commit message says what you just changed in your code.</span>
             </li>
             <li>
-                <span class="command">git push --></span>
+                <span class="command">git push</span>
+                <span class="arrow">--></span>
                 <span>Push all your most recent work to GitHub</span>
             </li>
         </ul>
